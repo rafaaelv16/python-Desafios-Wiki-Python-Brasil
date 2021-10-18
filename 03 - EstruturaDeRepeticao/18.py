@@ -16,7 +16,7 @@ for i in range(1, qtd_numeros+1):
         if numero > maior:
             maior = numero
         if numero < menor:
-            manor = numero
+            menor = numero
     soma += numero
 
 print(f"""A soma dos valores é: {soma}
