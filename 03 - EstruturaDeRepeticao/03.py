@@ -26,7 +26,7 @@ while (idade < 0) | (idade > 150):
 while (salario < 0):
     salario = int(input('Digite o seu salário '))
     if salario < 0:
-        print('Digite um valor maior que 0!') 
+        print('Digite um valor maior que 0!')
 
 while sexo not in('F','M'):
     sexo = input('Digite o sexo: F ou M ').upper()
