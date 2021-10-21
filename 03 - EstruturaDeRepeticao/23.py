@@ -1,28 +1,28 @@
 """
-Programa Anterior
-    Faça um programa que peça um número inteiro e determine se ele é ou não um número primo.
-    Um número primo é aquele que é divisível somente por ele mesmo e por 1.
-
-22 - Altere o programa de cálculo dos números primos, informando, caso o número não seja primo,
-por quais número ele é divisível.
+23 - Faça um programa que mostre todos os primos entre 1 e N sendo N um número inteiro fornecido
+pelo usuário. O programa deverá mostrar também o número de divisões que ele executou para
+encontrar os números primos. Serão avaliados o funcionamento,
+o estilo e o número de testes (divisões) executados.
 """
 
 numero = int(input('Digite o valor e descubra se é primo'))
 
-contador = 0
-divisiveis = []
+contador = soma_divisoes = numeros_primos = 0
 
-primo = ''
+print(f'De 1 a {numero}. São primos: ')
+for j in range(1,numero+1):
+    for i in range(1, j+1):
+        soma_divisoes += 1
+        if j > 1:
+            if j % i == 0:
+                contador += 1
+    if contador == 2:
+        print(f'{j}')
+        numeros_primos += 1
 
-for i in range(1,numero+1):
-    if numero % i == 0:
-        contador += 1
-        divisiveis.append(i)
-        primo = f'não é primo pois é divisível por{divisiveis}'
+    contador = 0
 
-if contador <= 2:
-    primo = 'é primo'
+print(f'Foram feitas {soma_divisoes} divisões! \nE descobertos {numeros_primos} números primos.')
 
 
-print(f'O número {numero} {primo}')
 
