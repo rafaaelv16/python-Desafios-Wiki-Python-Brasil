@@ -14,13 +14,13 @@ divisiveis = []
 
 primo = ''
 
-for i in range(1,numero+1):
+for i in range(2,numero):
     if numero % i == 0:
         contador += 1
         divisiveis.append(i)
-        primo = f'não é primo pois é divisível por{divisiveis}'
+        primo = f'não é primo pois além de ser divisível por 1 e por ele mesmo, é divisível por{divisiveis}'
 
-if contador <= 2:
+if contador == 2:
     primo = 'é primo'
 
 
