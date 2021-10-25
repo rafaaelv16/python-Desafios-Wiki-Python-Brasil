@@ -2,13 +2,13 @@
 
 Desafios retirados do site: <https://wiki.python.org.br/ListaDeExercicios>
 
-1. EstruturaSequencial
+1. [EstruturaSequencial](https://github.com/rafaaelv16/python-Desafios-Wiki-Python-Brasil/tree/main/01%20-%20EstruturaSequencial)
 
-2. EstruturaDeDecisao
+2. [EstruturaDeDecisao](https://github.com/rafaaelv16/python-Desafios-Wiki-Python-Brasil/tree/main/02%20-%20EstruturaDeDecisao)
 
-3. EstruturaDeRepeticao
+3. [EstruturaDeRepeticao](https://github.com/rafaaelv16/python-Desafios-Wiki-Python-Brasil/tree/main/03%20-%20EstruturaDeRepeticao)
 
-4. ExerciciosListas
+4. [ExerciciosListas](https://github.com/rafaaelv16/python-Desafios-Wiki-Python-Brasil/tree/main/04%20-%20ExerciciosListas)
 
 5. ExerciciosFuncoes
 
