@@ -25,8 +25,18 @@ def imprimir(h,m,ap):
 
 p = 1
 while p != '':
-    hora = int(input('Digite a hora'))
-    minuto = int(input('Digite os minutos'))
+    hora = minuto = -1
+
+    #validando a entrada de hora: 0 a 23
+    while (hora < 0) | (hora > 23):
+        hora = int(input('Digite a hora'))
+        if (hora < 0) | (hora > 23):
+            print('Por favor, digite uma hora válida: 0 - 23')
+
+    while (minuto < 0) | (minuto > 59):
+        minuto = int(input('Digite os minutos'))
+        if (minuto < 0) | (minuto > 59):
+            print('Por favor, digite minutos válidos: 0 - 59')
 
     hora, am_pm = conversao(hora)
 
