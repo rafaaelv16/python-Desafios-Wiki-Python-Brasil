@@ -12,3 +12,22 @@ A.M. ou P.M.
 Inclua um loop que permita que o usuário repita esse cálculo para novos valores de entrada todas
 as vezes que desejar.
 """
+
+def conversao(h):
+    am_pm = 'A'
+    if h > 12:
+        h = hora - 12
+        am_pm = 'P'
+    return h, am_pm
+
+def imprimir(h,m,ap):
+    print(f'{h}:{m} {ap}')
+
+p = 1
+while p != '':
+    hora = int(input('Digite a hora'))
+    minuto = int(input('Digite os minutos'))
+
+    hora, am_pm = conversao(hora)
+
+    imprimir(hora,minuto,am_pm)
