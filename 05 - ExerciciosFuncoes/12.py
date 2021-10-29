@@ -15,6 +15,6 @@ string = input('Digite uma palavra pra embaralhar')
 def embaralha_palavra(palavra):
     nova_palavra = list(palavra)
     random.shuffle(nova_palavra)
-    return ''.join(nova_palavra)
+    return ''.join(nova_palavra).upper()
 
 print(embaralha_palavra(string))
