@@ -49,9 +49,11 @@ def identificaMostraQuadradosMagicos(lista):
     for i in lista:
         if (i[0]+i[1]+i[2] == i[3]+i[4]+i[5]) & (i[0]+i[1]+i[2] == i[2]+i[4]+i[6]):
             for j in range(0, len(i), 3):
-                print(matriz[j], matriz[j + 1], matriz[j + 2])
+                print(i[j], i[j + 1], i[j + 2])
 
 identificaMostraQuadradosMagicos(sequencias_exclusivas)
+"""lista = [8, 3, 4, 1, 5, 9, 6, 7, 2]
+identificaMostraQuadradosMagicos(lista)"""
 
 """
 vetor = [1,2,3]
