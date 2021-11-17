@@ -13,10 +13,9 @@ Desafios retirados do site: <https://wiki.python.org.br/ListaDeExercicios>
 5. [ExerciciosFuncoes](https://github.com/rafaaelv16/python-Desafios-Wiki-Python-Brasil/tree/main/05%20-%20ExerciciosFuncoes)
 
 6. [ExerciciosComStrings](https://github.com/rafaaelv16/python-Desafios-Wiki-Python-Brasil/tree/main/06%20-%20ExerciciosComStrings)
+   
+7. [ExerciciosArquivos](https://github.com/rafaaelv16/python-Desafios-Wiki-Python-Brasil/tree/main/07%20-%20ExerciciosArquivos)
 
-7. ExerciciosArquivos
+8. [ExerciciosClasses](https://github.com/rafaaelv16/python-Desafios-Wiki-Python-Brasil/tree/main/08%20-%20ExerciciosClasses)
 
-8. ExerciciosClasses
-
-9. ListaDeExerciciosProjetos
  
